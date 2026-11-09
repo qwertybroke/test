@@ -1,0 +1,15 @@
+{
+ "Hull": 222674,
+ "Windows_Glass": 2798,
+ "Cockpit_Glass": 2760,
+ "Window_Frames": 7164,
+ "Exterior_Details": 4820,
+ "Engine_Pods": 5488,
+ "Engines_Main": 2740,
+ "Nav_Lights": 144,
+ "Decals": 28,
+ "interior": 81794,
+ "doors": 42,
+ "lights": 99,
+ "triangles_total_without_doors": 330410
+}
