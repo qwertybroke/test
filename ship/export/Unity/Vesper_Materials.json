@@ -1,0 +1,1636 @@
+{
+ "materials": [
+  {
+   "name": "M_Carpet",
+   "set": "Fabric",
+   "baseColor": [
+    0.36,
+    0.33,
+    0.3,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Fabric_BaseColor.jpg",
+   "normalMap": "T_Fabric_Normal.jpg",
+   "maskMap": "T_Fabric_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Ceiling",
+   "set": "Ceiling",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Ceiling_BaseColor.jpg",
+   "normalMap": "T_Ceiling_Normal.jpg",
+   "maskMap": "T_Ceiling_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Ceramic",
+   "set": "Plastic_White",
+   "baseColor": [
+    0.95,
+    0.95,
+    0.94,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Plastic_White_BaseColor.jpg",
+   "normalMap": "T_Plastic_White_Normal.jpg",
+   "maskMap": "T_Plastic_White_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Decals",
+   "set": "Decals",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "MASK",
+   "doubleSided": false,
+   "baseMap": "T_Decals_BaseColor.png",
+   "normalMap": "T_Decals_Normal.jpg",
+   "maskMap": "T_Decals_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Door",
+   "set": "Metal_Painted",
+   "baseColor": [
+    0.54,
+    0.58,
+    0.64,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Metal_Painted_BaseColor.jpg",
+   "normalMap": "T_Metal_Painted_Normal.jpg",
+   "maskMap": "T_Metal_Painted_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Engine",
+   "set": "Engine_Metal",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Engine_Metal_BaseColor.jpg",
+   "normalMap": "T_Engine_Metal_Normal.jpg",
+   "maskMap": "T_Engine_Metal_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Engine_Core",
+   "set": "",
+   "baseColor": [
+    0.04,
+    0.05,
+    0.06,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": [
+    0.82,
+    0.94,
+    1.0
+   ],
+   "emissionStrength": 16.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Engine_Glow",
+   "set": "",
+   "baseColor": [
+    0.04,
+    0.05,
+    0.06,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": [
+    0.45,
+    0.78,
+    1.0
+   ],
+   "emissionStrength": 9.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Fabric_Beige",
+   "set": "Fabric",
+   "baseColor": [
+    0.79,
+    0.73,
+    0.64,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Fabric_BaseColor.jpg",
+   "normalMap": "T_Fabric_Normal.jpg",
+   "maskMap": "T_Fabric_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Fabric_Blue",
+   "set": "Fabric",
+   "baseColor": [
+    0.24,
+    0.36,
+    0.52,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Fabric_BaseColor.jpg",
+   "normalMap": "T_Fabric_Normal.jpg",
+   "maskMap": "T_Fabric_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Fabric_Green",
+   "set": "Fabric",
+   "baseColor": [
+    0.25,
+    0.4,
+    0.3,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Fabric_BaseColor.jpg",
+   "normalMap": "T_Fabric_Normal.jpg",
+   "maskMap": "T_Fabric_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Fabric_Grey",
+   "set": "Fabric",
+   "baseColor": [
+    0.42,
+    0.43,
+    0.45,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Fabric_BaseColor.jpg",
+   "normalMap": "T_Fabric_Normal.jpg",
+   "maskMap": "T_Fabric_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Fabric_Navy",
+   "set": "Fabric",
+   "baseColor": [
+    0.12,
+    0.15,
+    0.24,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Fabric_BaseColor.jpg",
+   "normalMap": "T_Fabric_Normal.jpg",
+   "maskMap": "T_Fabric_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Fabric_Red",
+   "set": "Fabric",
+   "baseColor": [
+    0.55,
+    0.16,
+    0.13,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Fabric_BaseColor.jpg",
+   "normalMap": "T_Fabric_Normal.jpg",
+   "maskMap": "T_Fabric_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Floor_Deck",
+   "set": "Floor_Deck",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Floor_Deck_BaseColor.jpg",
+   "normalMap": "T_Floor_Deck_Normal.jpg",
+   "maskMap": "T_Floor_Deck_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Floor_Grate",
+   "set": "Floor_Grate",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Floor_Grate_BaseColor.jpg",
+   "normalMap": "T_Floor_Grate_Normal.jpg",
+   "maskMap": "T_Floor_Grate_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Floor_Hall",
+   "set": "Floor_Hall",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Floor_Hall_BaseColor.jpg",
+   "normalMap": "T_Floor_Hall_Normal.jpg",
+   "maskMap": "T_Floor_Hall_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Floor_Wood",
+   "set": "Wood",
+   "baseColor": [
+    0.92,
+    0.82,
+    0.7,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Wood_BaseColor.jpg",
+   "normalMap": "T_Wood_Normal.jpg",
+   "maskMap": "T_Wood_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Frame_Dark",
+   "set": "Metal_Dark",
+   "baseColor": [
+    0.55,
+    0.57,
+    0.6,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Metal_Dark_BaseColor.jpg",
+   "normalMap": "T_Metal_Dark_Normal.jpg",
+   "maskMap": "T_Metal_Dark_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Glass_Canopy",
+   "set": "",
+   "baseColor": [
+    0.05,
+    0.07,
+    0.09,
+    0.42
+   ],
+   "metallic": 0.0,
+   "roughness": 0.05,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "BLEND",
+   "doubleSided": true,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Glass_Interior",
+   "set": "",
+   "baseColor": [
+    0.7,
+    0.82,
+    0.88,
+    0.18
+   ],
+   "metallic": 0.0,
+   "roughness": 0.05,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "BLEND",
+   "doubleSided": true,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Glass_Window",
+   "set": "",
+   "baseColor": [
+    0.06,
+    0.08,
+    0.1,
+    0.35
+   ],
+   "metallic": 0.0,
+   "roughness": 0.05,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "BLEND",
+   "doubleSided": true,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Greeble",
+   "set": "Greeble_Tech",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Greeble_Tech_BaseColor.jpg",
+   "normalMap": "T_Greeble_Tech_Normal.jpg",
+   "maskMap": "T_Greeble_Tech_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Hazard",
+   "set": "Hazard",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Hazard_BaseColor.jpg",
+   "normalMap": "T_Hazard_Normal.jpg",
+   "maskMap": "T_Hazard_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Hologram",
+   "set": "",
+   "baseColor": [
+    0.1,
+    0.3,
+    0.4,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.3,
+   "emission": [
+    0.3,
+    0.8,
+    1.0
+   ],
+   "emissionStrength": 1.2,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Hull_Dark",
+   "set": "Hull_Dark",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Hull_Dark_BaseColor.jpg",
+   "normalMap": "T_Hull_Dark_Normal.jpg",
+   "maskMap": "T_Hull_Dark_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Hull_Light",
+   "set": "Hull_Light",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Hull_Light_BaseColor.jpg",
+   "normalMap": "T_Hull_Light_Normal.jpg",
+   "maskMap": "T_Hull_Light_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Hull_Mid",
+   "set": "Hull_Mid",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Hull_Mid_BaseColor.jpg",
+   "normalMap": "T_Hull_Mid_Normal.jpg",
+   "maskMap": "T_Hull_Mid_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Intake_Glow",
+   "set": "",
+   "baseColor": [
+    0.04,
+    0.05,
+    0.06,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": [
+    0.35,
+    0.7,
+    1.0
+   ],
+   "emissionStrength": 6.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Leather",
+   "set": "Fabric",
+   "baseColor": [
+    0.33,
+    0.19,
+    0.11,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Fabric_BaseColor.jpg",
+   "normalMap": "T_Fabric_Normal.jpg",
+   "maskMap": "T_Fabric_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Light_Blue",
+   "set": "",
+   "baseColor": [
+    0.6,
+    0.75,
+    0.9,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "emission": [
+    0.45,
+    0.75,
+    1.0
+   ],
+   "emissionStrength": 6.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Light_Grow",
+   "set": "",
+   "baseColor": [
+    0.8,
+    0.5,
+    0.8,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "emission": [
+    1.0,
+    0.45,
+    0.85
+   ],
+   "emissionStrength": 6.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Light_Warm",
+   "set": "",
+   "baseColor": [
+    0.9,
+    0.85,
+    0.75,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "emission": [
+    1.0,
+    0.82,
+    0.6
+   ],
+   "emissionStrength": 8.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Light_White",
+   "set": "",
+   "baseColor": [
+    0.9,
+    0.9,
+    0.9,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "emission": [
+    0.95,
+    0.97,
+    1.0
+   ],
+   "emissionStrength": 9.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Liquid_Blue",
+   "set": "",
+   "baseColor": [
+    0.1,
+    0.35,
+    0.5,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.1,
+   "emission": [
+    0.1,
+    0.5,
+    0.8
+   ],
+   "emissionStrength": 1.5,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Metal_Brushed",
+   "set": "Metal_Brushed",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Metal_Brushed_BaseColor.jpg",
+   "normalMap": "T_Metal_Brushed_Normal.jpg",
+   "maskMap": "T_Metal_Brushed_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Metal_Dark",
+   "set": "Metal_Dark",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Metal_Dark_BaseColor.jpg",
+   "normalMap": "T_Metal_Dark_Normal.jpg",
+   "maskMap": "T_Metal_Dark_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Mirror",
+   "set": "",
+   "baseColor": [
+    0.9,
+    0.92,
+    0.95,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 0.02,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Nav_Green",
+   "set": "",
+   "baseColor": [
+    0.02,
+    0.2,
+    0.05,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": [
+    0.1,
+    1.0,
+    0.3
+   ],
+   "emissionStrength": 12.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Nav_Red",
+   "set": "",
+   "baseColor": [
+    0.2,
+    0.02,
+    0.02,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": [
+    1.0,
+    0.08,
+    0.05
+   ],
+   "emissionStrength": 12.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Nav_White",
+   "set": "",
+   "baseColor": [
+    0.8,
+    0.8,
+    0.8,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 14.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Paint_Blue",
+   "set": "Metal_Painted",
+   "baseColor": [
+    0.25,
+    0.45,
+    0.75,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Metal_Painted_BaseColor.jpg",
+   "normalMap": "T_Metal_Painted_Normal.jpg",
+   "maskMap": "T_Metal_Painted_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Paint_Green",
+   "set": "Metal_Painted",
+   "baseColor": [
+    0.3,
+    0.55,
+    0.3,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Metal_Painted_BaseColor.jpg",
+   "normalMap": "T_Metal_Painted_Normal.jpg",
+   "maskMap": "T_Metal_Painted_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Paint_Grey",
+   "set": "Metal_Painted",
+   "baseColor": [
+    0.6,
+    0.63,
+    0.66,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Metal_Painted_BaseColor.jpg",
+   "normalMap": "T_Metal_Painted_Normal.jpg",
+   "maskMap": "T_Metal_Painted_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Paint_Orange",
+   "set": "Metal_Painted",
+   "baseColor": [
+    0.92,
+    0.42,
+    0.12,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Metal_Painted_BaseColor.jpg",
+   "normalMap": "T_Metal_Painted_Normal.jpg",
+   "maskMap": "T_Metal_Painted_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Paint_Red",
+   "set": "Metal_Painted",
+   "baseColor": [
+    0.75,
+    0.15,
+    0.12,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Metal_Painted_BaseColor.jpg",
+   "normalMap": "T_Metal_Painted_Normal.jpg",
+   "maskMap": "T_Metal_Painted_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Paint_Teal",
+   "set": "Metal_Painted",
+   "baseColor": [
+    0.18,
+    0.55,
+    0.55,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Metal_Painted_BaseColor.jpg",
+   "normalMap": "T_Metal_Painted_Normal.jpg",
+   "maskMap": "T_Metal_Painted_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Paint_Yellow",
+   "set": "Metal_Painted",
+   "baseColor": [
+    0.95,
+    0.72,
+    0.15,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Metal_Painted_BaseColor.jpg",
+   "normalMap": "T_Metal_Painted_Normal.jpg",
+   "maskMap": "T_Metal_Painted_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Plant_Leaf",
+   "set": "",
+   "baseColor": [
+    0.12,
+    0.34,
+    0.1,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.55,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Plant_Leaf2",
+   "set": "",
+   "baseColor": [
+    0.22,
+    0.45,
+    0.14,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.55,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Plastic_Black",
+   "set": "Plastic_White",
+   "baseColor": [
+    0.05,
+    0.055,
+    0.06,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Plastic_White_BaseColor.jpg",
+   "normalMap": "T_Plastic_White_Normal.jpg",
+   "maskMap": "T_Plastic_White_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Plastic_White",
+   "set": "Plastic_White",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Plastic_White_BaseColor.jpg",
+   "normalMap": "T_Plastic_White_Normal.jpg",
+   "maskMap": "T_Plastic_White_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Reactor_Core",
+   "set": "",
+   "baseColor": [
+    0.2,
+    0.4,
+    0.6,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.3,
+   "emission": [
+    0.45,
+    0.85,
+    1.0
+   ],
+   "emissionStrength": 14.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Rubber",
+   "set": "Rubber",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Rubber_BaseColor.jpg",
+   "normalMap": "T_Rubber_Normal.jpg",
+   "maskMap": "T_Rubber_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Screens",
+   "set": "Screens",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    1,
+    1,
+    1
+   ],
+   "emissionStrength": 2.5,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Screens_BaseColor.jpg",
+   "normalMap": "T_Screens_Normal.jpg",
+   "maskMap": "T_Screens_MaskMap.png",
+   "emissionMap": "T_Screens_Emission.jpg"
+  },
+  {
+   "name": "M_Signs",
+   "set": "Signs",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    1,
+    1,
+    1
+   ],
+   "emissionStrength": 2.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Signs_BaseColor.jpg",
+   "normalMap": "T_Signs_Normal.jpg",
+   "maskMap": "T_Signs_MaskMap.png",
+   "emissionMap": "T_Signs_Emission.jpg"
+  },
+  {
+   "name": "M_Soil",
+   "set": "",
+   "baseColor": [
+    0.16,
+    0.1,
+    0.06,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.95,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Strip_Blue",
+   "set": "",
+   "baseColor": [
+    0.4,
+    0.6,
+    0.9,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "emission": [
+    0.3,
+    0.65,
+    1.0
+   ],
+   "emissionStrength": 6.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Strip_Ext",
+   "set": "",
+   "baseColor": [
+    0.8,
+    0.85,
+    0.9,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emission": [
+    0.92,
+    0.96,
+    1.0
+   ],
+   "emissionStrength": 10.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Strip_Orange",
+   "set": "",
+   "baseColor": [
+    0.9,
+    0.5,
+    0.2,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "emission": [
+    1.0,
+    0.45,
+    0.1
+   ],
+   "emissionStrength": 6.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Strip_Warm",
+   "set": "",
+   "baseColor": [
+    0.9,
+    0.8,
+    0.6,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "emission": [
+    1.0,
+    0.7,
+    0.4
+   ],
+   "emissionStrength": 6.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Strip_White",
+   "set": "",
+   "baseColor": [
+    0.9,
+    0.9,
+    0.9,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 6.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "",
+   "normalMap": "",
+   "maskMap": "",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Wall_Industrial",
+   "set": "Wall_Industrial",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Wall_Industrial_BaseColor.jpg",
+   "normalMap": "T_Wall_Industrial_Normal.jpg",
+   "maskMap": "T_Wall_Industrial_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Wall_Panel",
+   "set": "Wall_Panel",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Wall_Panel_BaseColor.jpg",
+   "normalMap": "T_Wall_Panel_Normal.jpg",
+   "maskMap": "T_Wall_Panel_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Wall_Warm",
+   "set": "Wall_White",
+   "baseColor": [
+    0.93,
+    0.88,
+    0.8,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Wall_White_BaseColor.jpg",
+   "normalMap": "T_Wall_White_Normal.jpg",
+   "maskMap": "T_Wall_White_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Wall_White",
+   "set": "Wall_White",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Wall_White_BaseColor.jpg",
+   "normalMap": "T_Wall_White_Normal.jpg",
+   "maskMap": "T_Wall_White_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Wood",
+   "set": "Wood",
+   "baseColor": [
+    1,
+    1,
+    1,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Wood_BaseColor.jpg",
+   "normalMap": "T_Wood_Normal.jpg",
+   "maskMap": "T_Wood_MaskMap.png",
+   "emissionMap": ""
+  },
+  {
+   "name": "M_Wood_Dark",
+   "set": "Wood",
+   "baseColor": [
+    0.45,
+    0.32,
+    0.24,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionStrength": 0.0,
+   "alphaMode": "OPAQUE",
+   "doubleSided": false,
+   "baseMap": "T_Wood_BaseColor.jpg",
+   "normalMap": "T_Wood_Normal.jpg",
+   "maskMap": "T_Wood_MaskMap.png",
+   "emissionMap": ""
+  }
+ ]
+}
