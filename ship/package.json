@@ -1,0 +1,21 @@
+{
+  "name": "vesper-explorer-asset",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "textures": "node src/textures.mjs --out build/Textures",
+    "build": "node src/build.mjs",
+    "blender": "uv run --python 3.11 --with bpy python blender/convert.py"
+  },
+  "dependencies": {
+    "@gltf-transform/core": "^4.1.0",
+    "@gltf-transform/extensions": "^4.1.0",
+    "@gltf-transform/functions": "^4.1.0",
+    "@napi-rs/canvas": "^0.1.65",
+    "sharp": "^0.35.5",
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^23.0.0"
+  }
+}
