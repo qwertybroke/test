@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>html,body{margin:0;background:#06080b;overflow:hidden}</style>
+<script type="importmap">{ "imports": { "three": "/three/build/three.module.js", "three/addons/": "/three/examples/jsm/" } }</script>
+</head><body>
+<script type="module">
+// Просмотрщик для проверки экспортированного GLB (используется tools/shot.mjs)
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+const q = new URLSearchParams(location.search);
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(innerWidth, innerHeight); renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = +(q.get('exp') || 1);
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene(); scene.background = new THREE.Color(0x05070a);
+const pm = new THREE.PMREMGenerator(renderer);
+scene.environment = pm.fromScene(new RoomEnvironment(), 0.04).texture;
+scene.environmentIntensity = +(q.get('env') || 0.6);
+const sun = new THREE.DirectionalLight(0xfff1e0, +(q.get('sun') || 2.5)); sun.position.set(60, 50, 40); scene.add(sun);
+const cam = new THREE.PerspectiveCamera(+(q.get('fov') || 40), innerWidth / innerHeight, 0.05, 2000);
+window.__ready = false;
+new GLTFLoader().load(q.get('src') || '/export/Vesper_Explorer.glb', (g) => {
+  const lightsMode = q.get('lights') || 'none';
+  const keep = [];
+  g.scene.traverse((o) => {
+    if (o.isLight) { if (lightsMode === 'none') o.visible = false; else keep.push(o); }
+    if (q.get('hide') && q.get('hide').split(',').some((h) => o.name === h)) o.visible = false;
+  });
+  scene.add(g.scene);
+  g.scene.updateMatrixWorld(true);
+  const [px, py, pz, tx, ty, tz] = (q.get('cam') || '60,30,80,0,0,0').split(',').map(Number);
+  cam.position.set(px, py, pz); cam.lookAt(tx, ty, tz);
+  if (lightsMode === 'near') { // только ближайшие источники (иначе шейдер слишком тяжёлый)
+    const p = new THREE.Vector3(); const n = +(q.get('nl') || 12);
+    keep.map((l) => ({ l, d: l.getWorldPosition(p).distanceTo(cam.position) })).sort((a, b) => a.d - b.d).forEach((e, i) => { e.l.visible = i < n; });
+    sun.intensity = +(q.get('sun') || 0); scene.environmentIntensity = +(q.get('env') || 0.15);
+  }
+  if (q.get('clipY')) renderer.clippingPlanes = [new THREE.Plane(new THREE.Vector3(0, -1, 0), +q.get('clipY'))];
+  if (q.get('clipX')) renderer.clippingPlanes = [new THREE.Plane(new THREE.Vector3(1, 0, 0), -(+q.get('clipX')))];
+  renderer.render(scene, cam);
+  requestAnimationFrame(() => { renderer.render(scene, cam); window.__ready = true; });
+}, undefined, (e) => { console.error('load error', e); window.__ready = 'error'; });
+</script></body></html>
